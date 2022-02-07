@@ -16,10 +16,11 @@ public class ObjectEx {
 		
 		String str = new String();
 		
-		User user1 = new User("junil", "1234");
-		User user2 = new User("junil", "1234");
+		User user = new User("junil", "1234");
+		System.out.println(user);
 		
-		System.out.println(user1.equals(user2));
+		User user2 = User.builder().username("junil").password("1234").build();
+		System.out.println(user2);
 
 	}
 
