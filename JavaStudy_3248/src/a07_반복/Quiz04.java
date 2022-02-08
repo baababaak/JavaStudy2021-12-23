@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Quiz04 {
 
 	public static void main(String[] args) {
-		// N찍기
+		// 별찍기
 		Scanner scanner = new Scanner(System.in);
 		int n = 0;
 				
@@ -19,7 +19,7 @@ public class Quiz04 {
 			System.out.println();
 		}
 		
-		// 기찍N
+		// 거꾸로 별찍기
 		for(int i = 0; i < n; i++) {
 			for(int j = 0; j < n - (i + 1); j++) {
 				System.out.print(" ");
